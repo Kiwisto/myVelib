@@ -1,0 +1,14 @@
+setup system1 10 100
+loadIni system1
+display system1
+displayUser system1 1
+rentClosestMechanicalBike 1
+displayUser system1 1
+setCoordinates 1 1.2 2.7
+returnClosestBike 1 20
+displayUser system1 1
+rentClosestElectricalBike 1
+setCoordinates 1 5.5 5.5
+returnClosestBike 1 720
+displayUser system1 1
+display system1
